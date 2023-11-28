@@ -36,7 +36,7 @@ function App() {
 
   const UserInfoScreen = () => (
     <div>
-      <h1>Welcome, {userData.name}</h1>
+      <h1>Welcome to Lion Leftovers, {userData.name}</h1>
       <p>Email: {userData.email}</p>
       {/* Display other user data here */}
       <Logout onLogout={() => setIsSignedIn(false)} />
